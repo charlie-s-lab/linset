@@ -28,6 +28,7 @@ fn main() {
             "openSUSE" => println!("Aktion für openSUSE ausführen"),
             "Mint" => println!("Aktion für Linux Mint ausführen"),
             "Gentoo" => println!("Aktion für Gentoo ausführen"),
+            "LMDE" => println!("Aktion für LMDE ausführen"),
             _ => println!("Unbekannte Distribution: {}", distribution),
         }
     }
